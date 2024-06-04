@@ -1,2 +1,2 @@
 # smartcaredental.com.np
-smartcaredental.com.np
+Smart Care Dental Website
