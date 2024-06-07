@@ -815,6 +815,7 @@ button:focus {
   /* font-weight: 700; */
   font-family: var(--paraFont);
   color: black;
+  background-color: rgba(245, 245, 245, 0.24);
   
   
 }
