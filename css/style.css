@@ -141,7 +141,7 @@ button:focus {
 }
 
 .common_btn {
-  background: var(--colorSecondary);
+  background: #008000;
   text-transform: capitalize;
   color: var(--colorWhite);
   padding: 12px 40px 12px 40px;
@@ -190,7 +190,7 @@ button:focus {
 }
 
 .common_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
   padding: 12px 25px 12px 55px;
   color: var(--colorWhite);
 }
@@ -205,7 +205,8 @@ button:focus {
   font-weight: 700;
   font-family: var(--paraFont);
   /* color: var(--colorPrimary); */
-  color: var(--colorSecondary);
+  /* color: #008000; */
+  color: #008000;
   text-transform: capitalize;
   position: relative;
   display: inline-block;
@@ -220,7 +221,7 @@ button:focus {
   width: 2px;
   height: 20px;
   /* background: var(--colorPrimary); */
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .common_heading h2 {
@@ -365,8 +366,8 @@ button:focus {
   color: var(--colorWhite);
   /* background-color: var(--colorPrimary);
   border-color: var(--colorPrimary); */
-  background-color: var(--colorSecondary);
-  border-color: var(--colorSecondary);
+  background-color: #008000;
+  border-color: #008000;
 }
 
 #pagination .page-link:focus {
@@ -380,7 +381,7 @@ button:focus {
   line-height: 55px;
   text-align: center;
   /* background: var(--colorPrimary); */
-  background: var(--colorSecondary);
+  background: #008000;
   color: var(--colorWhite) !important;
   border-radius: 50%;
   position: relative;
@@ -393,7 +394,7 @@ button:focus {
   width: 100%;
   height: 100%;
   /* background-color: var(--colorPrimary); */
-  background-color: var(--colorSecondary);
+  background-color: #008000;
   top: 0;
   left: 0;
   border-radius: 50%;
@@ -487,7 +488,8 @@ button:focus {
 .topbar {
   width: 100%;
   height: 40px;
-  background: var(--colorSecondary);
+  /* background: #008000; */
+  background: #008000;
   position: fixed;
   top: 0;
   left: 0;
@@ -569,7 +571,8 @@ button:focus {
 .main_menu .navbar-brand {
   margin: 0;
   padding: 0;
-  max-width: 150px;
+  /* max-width: 150px; */
+  max-width: 120px;
 }
 
 .main_menu .navbar-nav .nav-item {
@@ -596,7 +599,7 @@ button:focus {
 .main_menu .navbar-nav .nav-item:hover>a,
 .main_menu .navbar-nav .nav-item>a.active {
   /* color: var(--colorPrimary); */
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .main_menu .collapse .navbar-nav .nav-item a i {
@@ -748,7 +751,8 @@ button:focus {
   line-height: 40px;
   text-align: center;
   /* background: var(--colorPrimary); */
-  background: var(--colorSecondary);
+  /* background: #008000; */
+  background: #008000;
   padding: 0;
   color: var(--colorWhite);
   font-size: 16px;
@@ -1033,7 +1037,7 @@ button:focus {
   font-size: 11px;
   border-radius: 50%;
   /* background: var(--colorPrimary); */
-  background: var(--colorSecondary);
+  background: #008000;
   transition: all linear .3s;
   -webkit-transition: all linear .3s;
   -moz-transition: all linear .3s;
@@ -1100,7 +1104,7 @@ button:focus {
   height: 50px;
   line-height: 50px;
   font-size: 24px;
-  background: var(--colorSecondary);
+  background: #008000;
   color: var(--colorWhite);
   text-align: center;
   border-radius: 10px;
@@ -1141,7 +1145,8 @@ button:focus {
 }
 
 .service_heading:hover {
-  color: var(--colorPrimary);
+  /* color: var(--colorPrimary); */
+  color: #008000;
 }
 
 .service_text p {
@@ -1257,8 +1262,8 @@ button:focus {
   bottom: 0;
   right: 0;
   z-index: -1;
-  border-bottom: 4px solid var(--colorSecondary);
-  border-right: 4px solid var(--colorSecondary);
+  border-bottom: 4px solid #008000;
+  border-right: 4px solid #008000;
   border-radius: 0px 0px 10px 0px;
 }
 
@@ -1374,7 +1379,7 @@ button:focus {
 }
 
 .process_number.num1 {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .process_number.num2 {
@@ -1629,7 +1634,7 @@ button:focus {
 }
 
 .helpline_contact li:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .helpline_contact li span {
@@ -1651,7 +1656,7 @@ button:focus {
 
 .helpline_contact li:hover span {
   background: var(--colorWhite);
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .helpline_contact_text {
@@ -1894,7 +1899,7 @@ button:focus {
 }
 
 .single_team:hover .team_designation {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .team_shape_1 {
@@ -2044,7 +2049,7 @@ button:focus {
 
 .slick-dots li.slick-active button {
   /* background: var(--colorPrimary); */
-  background: var(--colorSecondary);
+  background: #008000;
   width: 30px;
 }
 
@@ -2089,7 +2094,8 @@ button:focus {
 }
 
 .blog_text .blog_date li i {
-  color: var(--colorPrimary);
+  /* color: var(--colorPrimary); */
+  color: #008000;
   margin-right: 10px;
 }
 
@@ -2164,7 +2170,7 @@ button:focus {
   top: 15px;
   left: 15px;
   font-size: 14px;
-  background: var(--colorSecondary);
+  background: #008000;
   color: var(--colorWhite);
   padding: 5px 20px;
   border-radius: 30px;
@@ -2278,7 +2284,7 @@ button:focus {
 
 .quick_link ul li a:hover {
   /* color: var(--colorPrimary); */
-  color: var(--colorSecondary);
+  color: #008000;
   padding-left: 5px;
 }
 
@@ -2308,7 +2314,7 @@ button:focus {
 .tf_footer_address p i,
 .tf_footer_address a i {
   /* color: var(--colorPrimary); */
-  color: var(--colorSecondary);
+  color: #008000;
   position: absolute;
   left: 0;
   top: 4px;
@@ -2317,7 +2323,7 @@ button:focus {
 
 .tf_footer_address a:hover {
   /* color: var(--colorPrimary); */
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .copyright {
@@ -2340,11 +2346,11 @@ button:focus {
 
 .copyright ul li a:hover {
   /* color: var(--colorPrimary); */
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .subscription {
-  background: var(--colorSecondary);
+  background: #008000;
   padding: 40px;
   border-radius: 100px;
   position: relative;
@@ -2400,7 +2406,7 @@ right: 30px;
   text-align: center;
   line-height: 70px;
   /* background: var(--colorPrimary); */
-  background: var(--colorSecondary);
+  background: #008000;
   border: 3px solid var(--colorWhite);
   transition: all linear .3s;
   -webkit-transition: all linear .3s;
@@ -2425,7 +2431,7 @@ right: 30px;
 }
 
 .scroll_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 @keyframes scroll_amini {
@@ -2516,7 +2522,7 @@ right: 30px;
 }
 
 .menu_btn_2 .common_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .main_menu_2.menu_fix {
@@ -2614,7 +2620,7 @@ right: 30px;
 }
 
 .home_two_banner .common_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .banner_img_tow {
@@ -2694,7 +2700,7 @@ right: 30px;
 .categories_wraper .categories_icon {
   width: 70px;
   height: 70px;
-  background: var(--colorSecondary);
+  background: #008000;
   border-radius: 50%;
   padding: 20px;
   position: absolute;
@@ -3126,7 +3132,7 @@ right: 30px;
 .team_2_text .social_media {
   width: 170px;
   height: auto;
-  background: var(--colorSecondary);
+  background: #008000;
   padding: 15px 25px;
   border-radius: 100px;
   position: absolute;
@@ -3177,7 +3183,7 @@ right: 30px;
 }
 
 .single_team_2 .title:hover {
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 /* team end */
@@ -3234,19 +3240,19 @@ right: 30px;
 }
 
 .get_touch_2 .common_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .get_touch_2_btn {
   margin-left: 30px;
-  color: var(--colorSecondary);
+  color: #008000;
   background: transparent !important;
-  border: 2px solid var(--colorSecondary);
+  border: 2px solid #008000;
 }
 
 .get_touch_2_btn:hover {
-  background: var(--colorSecondary) !important;
-  border-color: var(--colorSecondary);
+  background: #008000 !important;
+  border-color: #008000;
 }
 
 .get_touch_2 .video_box {
@@ -3349,7 +3355,7 @@ right: 30px;
 }
 
 .footer_two .footer_top_right_text a:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .footer_two .footer_left {
@@ -3439,11 +3445,11 @@ right: 30px;
 =============================*/
 
 .home_three .common_heading h5 {
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .home_three .common_heading h5::after {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 /* main manu start */
@@ -3507,7 +3513,7 @@ right: 30px;
 }
 
 .banner_3 .button_group .common_btn:first-child {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .banner_3 .button_group .common_btn:hover {
@@ -3550,8 +3556,8 @@ right: 30px;
 }
 
 .search_3_area .common_btn {
-  background: var(--colorSecondary) !important;
-  border-color: var(--colorSecondary);
+  background: #008000 !important;
+  border-color: #008000;
   border-radius: 10px;
   width: 100%;
 }
@@ -3619,7 +3625,8 @@ right: 30px;
 .about_2 .play_btn,
 .about_2 .play_btn::after {
   /* background-color: var(--colorDeepblue); */
-  background-color: var(--colorSecondary);
+  /* background-color: #008000; */
+  background-color: #008000;
 }
 
 .about_2 .about_img_2 {
@@ -3662,7 +3669,7 @@ right: 30px;
   position: absolute;
   content: "\f00c";
   /* color: var(--colorDeepblue); */
-  color: var(--colorSecondary);
+  color: #008000;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   top: 2px;
@@ -3670,7 +3677,7 @@ right: 30px;
   width: 23px;
   height: 23px;
   /* border: 2px solid var(--colorDeepblue); */
-  border: 2px solid var(--colorSecondary);
+  border: 2px solid #008000;
   line-height: 20px;
   background-color: transparent;
 }
@@ -3686,12 +3693,12 @@ right: 30px;
 
 .about_2 .common_btn {
   /* background-color: var(--colorDeepblue); */
-  background-color: var(--colorSecondary);
+  background-color: #008000;
   border-radius: 5px;
 }
 
 .about_2 .common_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 /* about end */
@@ -3709,7 +3716,7 @@ right: 30px;
 
 .process_2 .item_wraper:hover h3 {
   /* color: var(--colorDeepblue); */
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .process_2 .item_wraper .icon {
@@ -3781,7 +3788,7 @@ right: 30px;
 }
 
 .get_touch_3 .appoinment_2_btn:hover {
-  border-color: var(--colorSecondary);
+  border-color: #008000;
 }
 
 /* get_touch end*/
@@ -4034,7 +4041,7 @@ right: 30px;
 /* footer end*/
 .home_three .common_btn {
   border-radius: 8px;
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .home_three .common_btn:hover {
@@ -4043,27 +4050,27 @@ right: 30px;
 
 .main_menu_3 .navbar-nav .nav-item .nav-link:hover,
 .main_menu_3 .navbar-nav .nav-item .nav-link.active {
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .main_menu_3 .navbar-nav .nav-item .nav-link::after {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .main_menu_3 .dropdown li a:hover,
 .main_menu_3 .dropdown li a.active {
-  color: var(--colorSecondary) !important;
+  color: #008000 !important;
   background: #2ac28e0d;
-  border-left: 5px solid var(--colorSecondary);
+  border-left: 5px solid #008000;
 }
 
 
 .home_three .copyright ul li a:hover {
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .home_three .blog_3 .blog_text_icon .blog_link:hover {
-  background-color: var(--colorSecondary);
+  background-color: #008000;
 }
 
 .home_three .process_2 .item_wraper a {
@@ -4077,7 +4084,7 @@ right: 30px;
 
 .home_three .process_2 .item_wraper a:hover,
 .home_three .process_2 .item_wraper:hover h3 {
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .banner_3 .banner_text {
@@ -4085,7 +4092,7 @@ right: 30px;
 }
 
 .home_three .main_menu_3 .menu_btn_2 .menu_sign_in:hover {
-  color: var(--colorSecondary);
+  color: #008000;
 }
 
 .banner_3 .banner_text p {
@@ -4135,7 +4142,7 @@ right: 30px;
   line-height: 60px;
   border-radius: 50%;
   margin-bottom: 15px;
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .counter_icon.icon2 {
@@ -4264,7 +4271,8 @@ right: 30px;
 }
 
 .contact_icon.icon_2 {
-  background: var(--colorPrimary);
+  /* background: var(--colorPrimary); */
+  background: #008000;
 }
 
 .contact_icon.icon_3 {
@@ -4272,7 +4280,7 @@ right: 30px;
 }
 
 .contact_icon.icon_4 {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .contact_address h4 {
@@ -5651,7 +5659,7 @@ right: 30px;
 }
 
 .comment_text a:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .commant_reply {
@@ -6013,7 +6021,7 @@ right: 30px;
 }
 
 ._blog_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .sidebar_category li a {
@@ -6317,7 +6325,7 @@ right: 30px;
 
 .dashboard_menu li:last-child a {
   margin-bottom: 0;
-  background: var(--colorSecondary) !important;
+  background: #008000 !important;
   color: var(--colorWhite) !important;
 }
 
@@ -6525,7 +6533,7 @@ right: 30px;
 }
 
 .appointment_history table tr .status button {
-  background: var(--colorSecondary);
+  background: #008000;
   overflow: hidden;
   width: 96px;
   padding: 5px 0px;
@@ -6676,9 +6684,9 @@ right: 30px;
   width: 96px;
   padding: 5px 0px;
   border-radius: 30px;
-  color: var(--colorSecondary);
+  color: #008000;
   background: none;
-  border: 1px solid var(--colorSecondary);
+  border: 1px solid #008000;
   margin-bottom: 10px;
   text-transform: capitalize;
   transition: all linear .3s;
@@ -6689,7 +6697,7 @@ right: 30px;
 }
 
 .confirm_btn:hover {
-  background: var(--colorSecondary);
+  background: #008000;
   color: var(--colorWhite);
 }
 
@@ -7054,7 +7062,7 @@ right: 30px;
 }
 
 .dashboard_profile a:hover {
-  background: var(--colorSecondary);
+  background: #008000;
 }
 
 .dashboard_profile ul li {
@@ -7105,7 +7113,7 @@ right: 30px;
 
 .single_chat_top .text p {
   text-transform: capitalize;
-  color: var(--colorSecondary);
+  color: #008000;
   font-size: 14px;
 }
 
