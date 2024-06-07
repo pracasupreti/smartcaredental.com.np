@@ -913,7 +913,7 @@ button:focus {
   display: none;
 }
 
-.banner::after {
+/* .banner::after {
   position: absolute;
   content: "";
   background: url("../images/other/shape-1.png");
@@ -926,7 +926,7 @@ button:focus {
   left: 5%;
   animation: zoom_animi linear 2s infinite alternate;
   -webkit-animation: zoom_animi linear 2s infinite alternate;
-}
+} */
 
 /* banner end */
 
@@ -3476,14 +3476,14 @@ right: 30px;
   margin-top: 70px;
 }
 
-.banner_3::after {
+/* .banner_3::after {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, rgba(3, 29, 54, 0.00) 22.3%, rgba(1, 40, 78, 0.61) 67.49%, rgba(1, 42, 81, 0.70) 76.83%, rgba(0, 48, 95, 0.85) 100%);
-}
+} */
 
 .banner_3>* {
   position: relative;
