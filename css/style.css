@@ -5131,7 +5131,8 @@ right: 30px;
   position: absolute;
   top: 5px;
   right: 5px;
-  background: var(--colorPrimary);
+  /* background: var(--colorPrimary); */
+  background: #008000;
   width: 40px;
   height: 40px;
   border-radius: 50%;
