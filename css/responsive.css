@@ -193,7 +193,7 @@
     }
 
     .breadcrumb {
-        padding: 220px 0px 115px;
+        /* padding: 220px 0px 115px; */
     }
 
     .breadcrumb_text h1 {
@@ -548,7 +548,7 @@
     ================================*/
 
     .breadcrumb {
-        padding: 220px 0px 115px;
+        /* padding: 220px 0px 115px; */
     }
 
     /*================================
@@ -962,7 +962,8 @@
     }
 
     .breadcrumb {
-        padding: 200px 0px 90px;
+        /* padding: 200px 0px 90px; */
+        padding: 200px 0px 115px;
     }
 
     .single_counter {
@@ -1564,7 +1565,8 @@
     }
 
     .breadcrumb {
-        padding: 200px 0px 90px;
+        /* padding: 200px 0px 90px; */
+        padding: 200px 0px 115px;
     }
 
     .single_counter {
@@ -2294,7 +2296,8 @@
     }
 
     .breadcrumb {
-        padding: 173px 0px 65px;
+        /* padding: 173px 0px 65px; */
+        padding: 200px 0px 115px;
     }
 
     .single_counter {
@@ -2803,6 +2806,9 @@
 
     .banner_3 .banner_text p {
         max-width: 100%;
+    }
+    .about_img_2{
+        display: none;
     }
 
 }
