@@ -4739,7 +4739,7 @@ right: 30px;
 }
 
 .modal-footer {
-  justify-content: space-between;
+  /* justify-content: space-between; */
   border-top: 0;
 }
 
@@ -7192,3 +7192,63 @@ right: 30px;
       }
 
       /* WhatsApp Float Ends Here    */
+
+
+
+      /* popup in index page */
+	
+	        .modal.show {
+	        	/* display: block; */
+	        	background-color: rgba(0, 0, 0, 0.75); /* Add a dark background to blur the outside area */
+	        }
+	        
+	        .modal.show.modal-dialog {
+	        	transform: translate(0, 0); /* Remove the default transform */
+	        }
+	        
+	        /* Add a blur effect to the body when the modal is shown */
+	        .modal.show ~.blur {
+	        	filter: blur(5px);
+	        }
+        
+	        .close{
+	        	/* margin-top: -19px !important; */
+	        }
+        
+        
+	        	.modal-dialog{
+	        		margin-top: 80px !important;
+	        	}
+        
+        
+        
+	        @media(max-width:500px){
+	        	.modal-title{
+	        		font-size: 12px !important;
+	        	}
+        
+	        	.modal-content{
+	        		width: 67% !important;
+	        		margin-left: 70px !important;
+	        	}
+        
+	        	.modal-dialog{
+	        		margin-top: 115px !important;
+	        	}
+	        }
+        
+	        @media(max-width:369px){
+	        	.modal-content{
+	        		width: 67% !important;
+	        		margin-left: 62px !important;
+	        	}
+        
+	        	.model-header{
+	        		height: 43px;
+	        	}
+        
+	        	.close{
+	        		margin-top: -25px !important;
+	        	}
+	        }
+        
