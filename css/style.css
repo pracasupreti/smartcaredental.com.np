@@ -7211,15 +7211,12 @@ right: 30px;
 	        	filter: blur(5px);
 	        }
         
-	        .close{
-	        	/* margin-top: -19px !important; */
-	        }
-        
-        
 	        	.modal-dialog{
 	        		margin-top: 80px !important;
 	        	}
-        
+        .modal-header{
+          height: 50px;
+        }
         
         
 	        @media(max-width:500px){
