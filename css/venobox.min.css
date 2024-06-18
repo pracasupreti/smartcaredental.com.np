@@ -236,9 +236,14 @@
 }
 
 .vbox-container img {
-    width: auto !important;
-    max-width: 100%;
-    height: auto
+    /* width: auto !important; */
+    max-width:100%!important;
+    height: auto;
+    width: 100%!important;
+    height: 600px!important;
+    object-fit: contain!important;
+    background: transparent!important;
+    
 }
 
 .vbox-figlio {
