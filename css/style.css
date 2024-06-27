@@ -253,7 +253,8 @@ button:focus {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   /* padding: 220px 0px 100px; */
-  padding: 169px 0px 147px;
+  /* padding: 169px 0px 147px; */
+  padding: 200px 0px 147px;
   position: relative;
   height: 200px;
 }
