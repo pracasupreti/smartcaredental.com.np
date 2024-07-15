@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://www.sriyog.com/roadblock/roadblock.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -42,9 +43,23 @@
 
 
 <body class="blur">
+       <!-- roadblock -->
+       <div id="roadblock-wrap" class=" d-flex align-items-center justify-content-center roadblock " style="background-color: rgba(209, 213, 219, 1);">
+        <div >
+            
+             
+            <div class="position-relative shadow p-4 bg-white " style="border-radius: 2%;">
+                <p class="btn btn-danger rounded-circle roadblock_skip " onclick="skipAd(event)">X</p>
+                <a href="#" target="_blank" id="advertisementLink">
+                    <img src="https://www.sriyog.com/roadblock/default.jpg" class="img-fluid rounded" style="border-radius: 3%; object-fit: contain!important; height: 500px!important; width: 500px!important;" alt="Advertisement">
+                </a>
+            </div>
+           
+        </div>
+    </div>
 
      <!-- Modal popup start here -->
-     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 99999;">
+     <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 99999;">
         <div class="modal-dialog" role="document">
         <div class="modal-content" style="width: 65%; margin-left: 85px;">
         <div class="modal-header">
@@ -63,9 +78,9 @@
         </div>
         </div>
         </div>
-        
+         -->
         <!--------js for popup box start here-------->
-        <script>
+        <!-- <script>
   
   document.addEventListener("DOMContentLoaded", function() {
     var modal = document.getElementById("exampleModal");
@@ -92,7 +107,7 @@
       }
     });
   });
-</script>
+</script> -->
 
         
     <!---------js for popup box ends here-------->
@@ -1054,6 +1069,8 @@
     <script src="js/venobox.min.js"></script>
     <!--wow js-->
     <script src="js/wow.min.js"></script>
+    <!-- roadblock js -->
+    <script src="https://www.sriyog.com/roadblock/roadblock.js"></script>
 
     <!--main js-->
     <script src="js/main.js"></script>
